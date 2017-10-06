@@ -1,0 +1,27 @@
+{
+  "name": "practica",
+  "version": "0.1.0",
+  "description": "Traductor en otro idioma",
+  "main": "lib/src/practica.js",
+  "scripts": {
+    "build": "babel src/practica.js -d lib",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jeanpilearn/Practica.git"
+  },
+  "keywords": [
+    "Translate",
+    "language",
+    "javascript"
+  ],
+  "author": "Jean Pierre <arenaspierre@protonmail.com> (https://www.facebook.com/JePiGiArOr)",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.0",
+    "chai": "^4.1.2",
+    "mocha": "^4.0.1"
+  }
+}
